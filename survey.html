@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survry form practice </title>
+    <link rel="stylesheet" href="survey.css">
+</head>
+<body>
+    <h1>Survey for intern ship</h1>
+    
+        
+        <form action="" >
+            <div class="form-control">
+            <label for="username" id="label-name">name</label>
+            <input type="text" id="username" placeholder="enter your name">
+            </div>
+
+            <div class="form-control">
+                <label for="email" id="label-email">enter your email</label>
+                <input type="email" id="email" placeholder="enter your email"/>
+                </div>
+
+            <div class="form-control">
+                    <label for="age" id="label-age ">age</label>
+                    <input type="number" id="age" placeholder="enter your age">
+            </div>
+
+            <div class="form-control">
+                 <label for="role" id="label-role">Which part describes you?</label>
+                 <select name="role" id="role"> 
+                    <option value="">intern</option>
+                    <option value="">Student</option>
+                    <option value="stu">developer</option>
+                 </select>
+            </div>
+
+            <div class="form-control">
+               <label>is ayush a good person?                
+               </label>
+               <label for="radio1" id="label-radio1">
+                <input type="radio" id="radio1" name="recommed">yes</input>
+               </label>
+               <label for="radio2" id="label-radio2">
+                <input type="radio" id="radio2" name="recommed">no</input>
+               </label>
+               <label for="radio3" id="label-radio3">
+                <input type="radio" id="radio3" name="recommed">i dont know</input>
+               </label>
+            </div>
+
+            <div class="form-control">
+                
+                <label>
+                    your know about?
+                    <small>(click to sellect )</small>
+                </label>
+
+                <label for="inp-1">
+                    <input type="checkbox" name="inp">c</input>
+                </label>
+                <label for="inp-1">
+                    <input type="checkbox" name="inp">c++</input>
+                </label>
+                <label for="inp-1">
+                    <input type="checkbox" name="inp">java</input>
+                </label>
+                <label for="inp-1">
+                    <input type="checkbox" name="inp">web development</input>
+                </label>
+            </div>
+
+            <div class="form-control">
+                <label>any comments</label>
+
+                <label for="comment"></label>
+                <textarea name="comment" id="comment" 
+                placeholder="Enter your comment here">
+                </textarea>
+                </label>
+            </div>
+
+           <button id="" type="submit" value="submit">submit</button>
+
+            
+        </form>
+</body>
+</html>
